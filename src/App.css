@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.maindiv {
+  background-color: #07447b;
+  color: white;
+  width: 500px;
+  height: fit-content;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 0px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.outerdiv {
+  background-color: #4cbbd9;
+  position: absolute;
+  margin-top: 0px;
+  width: 41%;
+  overflow: hidden;
+}
+
+.sticky {
+  position: sticky;
+  overflow: hidden;
+  /* top: 0; */
+  width: 100%;
+  top: 0;
+}
+
+.filterData {
+  height: 670px;
+  width: 1000px;
+  background-color: #07447b;
+  margin-left: 41%;
+  margin-right: 10px;
+  /* position: sticky; */
+  top: 2;
+  overflow: scroll;
+  z-index: 2;
+  color: white;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  /* top: 50px;
+  left: 50px; */
+}
+
+.theouterdiv {
+  width: 1500px;
+}
