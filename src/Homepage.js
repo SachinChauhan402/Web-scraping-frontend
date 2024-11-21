@@ -56,7 +56,7 @@ export const Homepage = ({ searchTerm }) => {
             ))}
           </div>
         ) : (
-          <p>No matching data found.</p>
+          <p>Wait Data is Loading...</p>
         )}
       </div>
     </div>
